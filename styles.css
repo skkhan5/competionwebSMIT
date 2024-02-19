@@ -1,0 +1,72 @@
+.navbar-nav{
+    background-color: white;
+    display: flex;
+   justify-content: flex-end;
+ 
+}
+.nav-link{
+    position: relative;
+    left: 533px;
+    
+}
+.container-fluid{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.herosection{
+    width: 1280px;
+    height: 600px;
+    background-image: url(./public/heroimg.webp);
+    padding-top: 5rem;
+    padding-left: 5rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+    
+
+}
+.herosec01{
+    padding-top: 6rem;
+}
+.herobutton{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(236, 33, 101);
+    outline: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    border-color: wheat;
+}
+ .herobutton1{
+        width: 150px;
+        height: 50px;
+        background-color: rgb(236, 33, 101);
+        outline: none;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: medium;
+        font-weight: bold;
+        border-color: wheat;
+        
+}
+.herodiv1{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 05px 05px 05px 05px;
+}
+.herosec3{
+    width: 1280px;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    margin-top: 5rem;
+
+}
