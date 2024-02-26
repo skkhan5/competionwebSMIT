@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +12,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary my-class" >
+        <div class="container-fluid"class="myclass" >
           <a class="navbar-brand" href="#"><img src="./public/./logo1.webp" alt="picture"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -36,15 +37,47 @@
         <div class="herosec01">
            <h6>THE JOY OF HOME OWNING</h6>
            <h1>Find Your New Home</h1>
+           <button class="herobutton">Learn More</button>
+           </div>
 
-           <button class="herobutton">learn more</button> </div>
            <div class="herodiv1" >
             <h2>Search Properties for</h2>
-            <input type="name" placeholder="choose location">
-            <input type="name" placeholder="propaty type">
-            <input type="name" placeholder="bedrooms">
-            <input type="name" placeholder="bathrooms">
-            <button class="herobutton1">search propaty</button> 
+            <form >
+            <label for="choose location"></label>
+            <select class="selector" name="choose location" id="choose location">
+            <option class="option1" value="choose location">choose location</option>
+            <option class="option1" value="Propaty type">Propaty type</option>
+            <option class="option1" value="badrooms">badrooms</option>
+            </select>
+ 
+
+            <label for="Propaty type"></label>
+            <select class="selector" name="Propaty type" id="Propaty type">
+            <option class="option1" value="Propaty type">Propaty type</option>
+            <option class="option1" value="Propaty type">Propaty type</option>
+            <option class="option1" value="badrooms">badrooms</option>
+            </select>
+
+
+            <label for="badrooms"></label>
+            <select class="selector" name="badrooms" id="badrooms">
+            <option class="option1" value="badrooms">badrooms</option>
+            <option class="option1" value="choose location">Propaty type</option>
+            <option class="option1" value="badrooms">badrooms</option>
+            </select>
+         
+            <label for="bathrooms"></label>
+            <select class="selector" name="bathrooms" id="bathrooms">
+            <option class="option1"  alue="bathrooms">bathrooms</option>
+            <option class="option1" value="choose location">choose location</option>
+            <option class="option1" value="bathrooms">badrooms</option>
+            </select>
+            <input type="range">prize rage
+        
+
+
+            <button class="herobutton1">Search Propaty</button> 
+          </form>
             
 
 
@@ -61,11 +94,284 @@
             <h1>Welcome to SEL Center</h1>
             
                <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior is often laughed.</p>
+                 <div class="cardsdiv">
+               <div class="cards"><img src="./public/journals.svg" alt="logo"> 
+                <h2>$2.5M
+                </h2>
+                <p>Total Donation</p>
+              </div>
+              <div class="cards"><img src="./public/collection-fill.svg" alt="logo"> 
+                <h2>1465
+                </h2>
+                <p>Total Projects</p>
+              </div>
+
+              <div class="cards"><img src="./public/people-fill.svg" alt="logo"> 
+                <h2>3965
+                </h2>
+                <p>Total Volunteers</p>
+              </div>
+            </div>
 
           
           </div>
 
     </div>
+
+
+          <div class="hero4">
+            <h2>Our Top Rated Properties</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+          </div>
+
+          <div class="cardsdiv01">
+
+            <div class="card01">
+              <img src="./public/pp-1.jpg.webp" alt="picture">
+              <div class="card-center-div">
+              <h2>04 Bed Duplex</h2>
+              <div class="mini-button">
+            <button>04 Beds</button>
+            <button> 03 Beths</button>
+            <button> 750 sqm</button>
+            <button > Pool</button>
+            <button>Bar</button>
+            <button>pool</button>
+            </div>
+              <div class="footercard"><h2>Total: $3.5M</h2> 
+                <button class="herobutton1">for sale</button> 
+            </div>
+          </div>
+          </div>
+
+            
+          <div class="card01">
+            <img src="./public/pp-2.jpg.webp" alt="picture">
+            <div  class="card-center-div" >
+            <h2>04 Bed Duplex</h2>
+            <div class="mini-button">
+          <button>04 Beds</button>
+          <button> 03 Beths</button>
+          <button> 750 sqm</button>
+          <button > Pool</button>
+          <button>Bar</button>
+          <button>pool</button>
+          </div>
+            <div class="footercard"><h2>Total: $3.5M</h2> 
+              <button class="herobutton1">for sale</button> 
+          </div>
+        </div>
+        </div>
+
+
+
+
+        <div class="card01">
+          <img src="./public/pp-3.jpg.webp" alt="picture">
+          <div  class="card-center-div">
+          <h2>04 Bed Duplex</h2>
+          <div class="mini-button">
+        <button>04 Beds</button>
+        <button> 03 Beths</button>
+        <button> 750 sqm</button>
+        <button > Pool</button>
+        <button>Bar</button>
+        <button>pool</button>
+        </div>
+          <div class="footercard"><h2>Total: $3.5M</h2> 
+            <button class="herobutton1">for sale</button> 
+        </div>
+      </div>
+      </div>
+
+</div>
+
+<div class="sec_nd_last" >
+    <div class="sec_last_child">
+    <h2> Client’s Feedback</h2>
+    <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior is often laughed</p>
+  </div>
+  <div class="sec_last_child_1 " >
+    <img src="./public/testi-2.png.webp" alt="picture">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis exercitationem ex, distinctio suscipit mollitia laborum delectus cumque, dignissimos qui aliquam eos non! Maiores asperiores laborum accusamus nihil. Animi, laboriosam repellendus?
+    </p>
+  </div>
+  <div class="sec_last_child_1 ">
+    <img src="./public/testi-1.png" alt="picture">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis exercitationem ex, distinctio suscipit mollitia laborum delectus cumque, dignissimos qui aliquam eos non! Maiores asperiores laborum accusamus nihil. Animi, laboriosam repellendus?
+    </p>
+  </div>
+
+
+
+</div>
+
+
+
+<div class="thirdlast">
+  <h2>Demandable Cities</h2>
+  <p>We all live in an age that belongs to the young at heart. Life that is becoming extremely fast, day to day,</p>
+</div>
+
+<div class="foterimg">
+
+  <div class="foterimgchild1">
+    
+  <button class="herobutton2">Book Now</button> 
+</div>
+
+<div class="foterimgchild2">
+  
+  <button class="herobutton3">Book Now</button> 
+</div>
+
+<div class="foterimgchild3">
+  
+  <button class="herobutton4">Book Now</button> 
+</div>
+
+<div class="foterimgchild4">
+ 
+  <button class="herobutton5">Book Now</button> 
+</div>
+
+
+
+</div>
+
+
+
+
+
+<div class="backgroundcolar">
+
+<div class="fourthlast">
+  <h2>Why we are the best</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+ 
+</div>
+
+
+
+   <div class="fivethlast">
+
+
+          
+    <div class="fivethlastchild"> 
+    
+    <h4> <img src="./public/people-fill.svg" alt="picture">Expert Technicians</h4>
+    <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+
+   </div>
+
+   
+   <div class="fivethlastchild">
+    
+    <h4> <img src="./public/people-fill.svg" alt="picture">Professional Service</h4>
+    <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+
+   </div>
+
+
+   
+   <div class="fivethlastchild">
+    
+    <h4> <img src="./public/people-fill.svg" alt="picture">Great Support</h4>
+    <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+
+   </div>
+
+  </div>
+
+
+
+
+
+  <div class="sixlast">
+
+
+          
+    <div class="fivethlastchild"> 
+    
+    <h4> <img src="./public/people-fill.svg" alt="picture">Expert Technicians</h4>
+    <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+
+   </div>
+
+   
+   <div class="fivethlastchild">
+    
+    <h4> <img src="./public/people-fill.svg" alt="picture">Professional Service</h4>
+    <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+
+   </div>
+
+
+   
+   <div class="fivethlastchild">
+    
+    <h4> <img src="./public/people-fill.svg" alt="picture">Great Support</h4>
+    <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+
+   </div>
+
+  </div>
+
+
+
+
+
+  </div>
+
+
+
+  <div class="sevenlast">
+
+    <h2>Reliable Customers</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+  </div>
+
+  <div class="sevenlastimg">
+    <img src="./public/c-logo-1.png.webp" alt="picture">
+    <img src="./public/c-logo-2.png.webp" alt="picture">
+    <img src="./public/c-logo-3.png.webp" alt="picture">
+    <img src="./public/c-logo-4.png.webp" alt="picture">
+    <img src="./public/c-logo-5.png.webp" alt="picture">
+  </div>
+
+
+  <div class="lastdiv">
+
+    <div class="lastdivchild">
+      <h2>ABOUT US</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+    </div>
+
+    <div class="lastdivchild">
+      <h2>NEWSLETTER</h2>
+      <p>Stay updated with our latest trends</p>
+      <input type="name" placeholder="Enter your Email">
+    
+    </div>
+
+    <div class="lastdivchild">
+      <h2>INSTAGRAM FEED</h2>
+      <img src="./public/Image-01.jpg.webp" alt="">
+      <img src="./public/Image-02.jpg.webp" alt="">
+      <img src="./public/Image-03.jpg.webp" alt="">
+      <img src="./public/Image-04.jpg.webp" alt="">
+      <img src="./public/Image-05.jpg.webp" alt="">
+      <img src="./public/Image-07.jpg.webp" alt="">
+      <img src="./public/Image-07.jpg.webp" alt="">
+      <img src="./public/Image-08.jpg.webp" alt="">
+    </div>
+
+    <div class="lastdivchild">
+      <h2>FOLLOW US</h2>
+      <p>Let us be social</p>
+    </div>
+
+  </div>
 
 </body>
 
