@@ -363,10 +363,22 @@
 .lastdiv{
     display: flex;
     justify-content: space-around;
+    margin-top: 300px;
+    background-color: #222222;
+    color: white;
+    height: 500px;
+    text-align: center;
+    padding-top: 150px;
 }
 .lastdivchild{
     width: 262px;
     height: 189px;
+}
+.lastfoter{
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    height: 100px;
 }
 
 
